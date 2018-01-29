@@ -38,6 +38,9 @@ The user will receive a Javascript confirmation pop-up if:
 1. The contact has been added successfully.
 2. The contact failed to add.
 
+# Before you begin #
+It is important to update the "user.properties" file with the Trumpia username and API key. Access the API key by logging into your account and going to Account -> API Settings.
+
 # Understanding Status Codes #
 Description of the different status code(s) can be found within the [subscription status code documentation](https://trumpia.com/api/docs/rest/status-code/subscription.php). Common status codes for failed sign ups: 
 * **MPSE0501**: mobile number has texted STOP to the short code and is blocked.
